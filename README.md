@@ -15,9 +15,9 @@ A customizable Valentine-themed web page with timeline-based animations, Spotify
 
 ## Tech Stack
 
-- HTML5
+- HTML
 - CSS3 (Glassmorphism, Gradients, Animations)
-- JavaScript (ES6)
+- JavaScript 
 - [GSAP TweenMax 1.x](https://cdnjs.com/libraries/gsap)
 - BrowserSync (local development)
 
