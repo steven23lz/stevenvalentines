@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Valentine's Day is coming 💘</title>
+
+  <link rel="shortcut icon" type="image/png" href="./img/heart.svg" />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <!-- Background decorations -->
+  <div class="background-hearts"></div>
+  <div class="floating-particles"></div>
+
+  <div class="container">
+    <!-- Section 1: Greeting -->
+    <section class="one greeting-section">
+      <div class="hearts-decoration top-left">💕</div>
+      <h1 class="main-title">Hello <span id="name">babyyy</span></h1>
+      <p class="subtitle" id="greetingText">Happy Valentines Day!</p>
+      <div class="hearts-decoration bottom-right">💕</div>
+    </section>
+
+    <!-- Section 2: Question -->
+    <section class="three question-section">
+      <svg class="section-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 10 L61 39 L92 39 L67 59 L78 88 L50 68 L22 88 L33 59 L8 39 L39 39 Z" fill="currentColor" />
+      </svg>
+      <p class="question-text">mangutana japon ko hehehehe bisag di ta ka date T-T</p>
+    </section>
+
+    <!-- Section 3: Chat Message -->
+    <section class="four chat-section">
+      <div class="chat-container">
+        <div class="chat-bubble">
+          <p class="hbd-chatbox">Will You Be My Valentine Love and blah blah...</p>
+          <span class="chat-send">Send</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Feelings/Messages -->
+    <section class="five feelings-section">
+      <div class="feeling-message">
+        <span class="feeling-icon">✨</span>
+        <p class="idea-1">Mao unta na ako buhaton.</p>
+      </div>
+      <div class="feeling-message">
+        <span class="feeling-icon">💭</span>
+        <p class="idea-2">ako gi undangggg kayyy.</p>
+      </div>
+      <div class="feeling-message">
+        <span class="feeling-icon">💡</span>
+        <p class="idea-3">I realised, I wanted to do something <strong>special</strong> byyy but physically
+          cant...still, i do this</p>
+      </div>
+      <div class="feeling-message">
+        <span class="feeling-icon">❤️</span>
+        <p class="idea-4">Because,</p>
+      </div>
+      <div class="feeling-message highlight">
+        <p class="idea-5" id="specialText">✨ You are Special <span>:)</span> ✨</p>
+      </div>
+      <div class="feeling-message large-text">
+        <p class="idea-6">
+          <span>U</span><span>N</span><span>I</span><span>Q</span><span>U</span><span>E</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 5: Picture & Music Player -->
+    <section class="six media-section">
+      <div class="image-container">
+        <div class="image-frame">
+          <img src="img/mybaby.jpg" alt="Valentine illustration" class="girl-dp" id="imagePath" />
+          <div class="frame-decoration"></div>
+        </div>
+      </div>
+
+      <div class="spotify-player">
+        <div class="player-header">
+          <span class="player-label">🎵 Now Playing</span>
+        </div>
+        <div class="player-track-info">
+          <span class="current-time">0:00</span>
+          <div class="player-progress">
+            <div class="progress-bar"></div>
+            <input type="range" class="progress-slider" min="0" max="100" value="0">
+          </div>
+          <span class="duration-time">0:00</span>
+        </div>
+        <div class="player-controls">
+          <button class="player-btn previous-btn" title="Previous">⏮</button>
+          <button class="player-btn play-btn" title="Play/Pause">▶</button>
+          <button class="player-btn next-btn" title="Next">⏭</button>
+          <button class="player-btn volume-btn" title="Volume">🔊</button>
+        </div>
+        <audio id="audio" loop muted>
+          <source src="./song/Star.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <div class="wish-section">
+        <h3 class="wish-hbd">💝 Will You Be My Valentine Cutu? 💝</h3>
+        <h5 id="wishText">hehehehe</h5>
+      </div>
+    </section>
+
+    <!-- Section 6: Background Balloons Animation -->
+    <div class="seven balloons-layer">
+      <div class="baloons">
+        <img src="img/balloon.svg" alt="Balloon" class="balloon-item" />
+        <img src="img/heart.svg" alt="Heart" class="balloon-item" />
+        <img src="img/balloon.svg" alt="Balloon" class="balloon-item" />
+        <img src="img/music-note.svg" alt="Music note" class="balloon-item" />
+        <img src="img/heart.svg" alt="Heart" class="balloon-item" />
+        <img src="img/balloon.svg" alt="Balloon" class="balloon-item" />
+        <img src="img/smiling.svg" alt="Smiling face" class="balloon-item" />
+        <img src="img/heart.svg" alt="Heart" class="balloon-item" />
+        <img src="img/balloon.svg" alt="Balloon" class="balloon-item" />
+        <img src="img/heart.svg" alt="Heart" class="balloon-item" />
+      </div>
+    </div>
+
+    <!-- Section 7: Confetti/Burst Effects -->
+    <div class="eight confetti-layer">
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 5 L25 15 L35 15 L27 22 L30 32 L20 25 L10 32 L13 22 L5 15 L15 15 Z" fill="currentColor" />
+      </svg>
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="18" fill="currentColor" />
+      </svg>
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 5 L25 15 L35 15 L27 22 L30 32 L20 25 L10 32 L13 22 L5 15 L15 15 Z" fill="currentColor" />
+      </svg>
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <rect x="5" y="5" width="30" height="30" fill="currentColor" transform="rotate(45 20 20)" />
+      </svg>
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="18" fill="currentColor" />
+      </svg>
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 5 L25 15 L35 15 L27 22 L30 32 L20 25 L10 32 L13 22 L5 15 L15 15 Z" fill="currentColor" />
+      </svg>
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <rect x="5" y="5" width="30" height="30" fill="currentColor" transform="rotate(45 20 20)" />
+      </svg>
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="18" fill="currentColor" />
+      </svg>
+      <svg class="confetti-shape" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 5 L25 15 L35 15 L27 22 L30 32 L20 25 L10 32 L13 22 L5 15 L15 15 Z" fill="currentColor" />
+      </svg>
+    </div>
+
+    <!-- Section 8: Final Message -->
+    <section class="nine final-section">
+      <div class="final-decoration">
+        <span>💖</span>
+        <span>🌹</span>
+        <span>💖</span>
+      </div>
+      <p class="final-message">I hope you like it byyyy</p>
+      <p id="replay" class="replay-button">✨ I love youu so muchhhh 💖 ✨</p>
+      <p class="last-smile">:)</p>
+    </section>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script src="script/main.js"></script>
+</body>
+
+</html>

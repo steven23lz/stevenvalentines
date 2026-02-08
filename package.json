@@ -1,0 +1,33 @@
+{
+  "name": "valentine-day-special",
+  "version": "1.0.0",
+  "description": "A customizable Valentine-themed animated landing page built with HTML, CSS, and GSAP.",
+  "private": true,
+  "scripts": {
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\"",
+    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777",
+    "check": "node --check script/main.js",
+    "test": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapniltake1/valentine-day-special.git"
+  },
+  "keywords": [
+    "valentine",
+    "animation",
+    "gsap",
+    "landing-page"
+  ],
+  "author": "Swapnil Take",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swapniltake1/valentine-day-special/issues"
+  },
+  "homepage": "https://github.com/swapniltake1/valentine-day-special#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "run-script-os": "^1.1.6"
+  }
+}
